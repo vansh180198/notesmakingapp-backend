@@ -12,8 +12,8 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         System.out.println("Configuring CORS mappings...");
         registry.addMapping("/**")
-                .allowedOrigins("https://notesmakingapp-frontend-murex.vercel.app", // Add your deployed frontend URL
-                        "http://localhost:5174")
+                .allowedOrigins("https://eclectic-gaufre-6ce38f.netlify.app/", // Add your deployed frontend URL
+                        "http://localhost:5174","https://eclectic-gaufre-6ce38f.netlify.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .exposedHeaders("Authorization")
