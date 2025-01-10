@@ -2,7 +2,7 @@ Live App: https://eclectic-gaufre-6ce38f.netlify.app/
 
 
 
-Frontend github :https://github.com/vansh180198/notesmakingapp-frontend
+Frontend github repo:https://github.com/vansh180198/notesmakingapp-frontend
 
 
 
